@@ -1,10 +1,10 @@
 # Tiny Tapeout project information (Wokwi project)
 project:
-  wokwi_id:     0       # Set this to the ID of your Wokwi project (the number from the project's URL)
-  title:        ""      # Project title
-  author:       ""      # Your name
+  wokwi_id:    422960396363264001       # Set this to the ID of your Wokwi project (the number from the project's URL)
+  title:        "Hello GDS"      # Project title
+  author:       "Boel"      # Your name
   discord:      ""      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
-  description:  ""      # One line description of what your project does
+  description:  "Hello World!"      # One line description of what your project does
   language:     "Wokwi" # other examples include SystemVerilog, Amaranth, VHDL, etc
   clock_hz:     0       # Clock frequency in Hz (or 0 if not applicable)
 
@@ -25,24 +25,24 @@ pinout:
   ui[7]: ""
 
   # Outputs
-  uo[0]: ""
-  uo[1]: ""
-  uo[2]: ""
-  uo[3]: ""
-  uo[4]: ""
-  uo[5]: ""
-  uo[6]: ""
-  uo[7]: ""
+  uo[0]: "IN0"
+  uo[1]: "IN1"
+  uo[2]: "IN2"
+  uo[3]: "IN3"
+  uo[4]: "IN4"
+  uo[5]: "IN5"
+  uo[6]: "IN6"
+  uo[7]: "IN7"
 
   # Bidirectional pins
-  uio[0]: ""
-  uio[1]: ""
+  uio[0]: "OUT0"
+  uio[1]: "OUT1"
   uio[2]: ""
   uio[3]: ""
-  uio[4]: ""
-  uio[5]: ""
-  uio[6]: ""
-  uio[7]: ""
+  uio[4]: "OUT4"
+  uio[5]: "OUT5"
+  uio[6]: "OUT6"
+  uio[7]: "OUT7"
 
 # Do not change!
 yaml_version: 6
